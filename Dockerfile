@@ -5,7 +5,7 @@ LABEL \
     org.opencontainers.image.authors="akafeng <i@sjy.im>" \
     org.opencontainers.image.source="https://github.com/akafeng/docker-udp2raw"
 
-ARG UDP2RAW_VERSION="20200818.0"
+ARG UDP2RAW_VERSION="20230206.0"
 ARG UDP2RAW_URL="https://github.com/wangyu-/udp2raw-tunnel/releases/download/${UDP2RAW_VERSION}/udp2raw_binaries.tar.gz"
 
 RUN set -eux \
